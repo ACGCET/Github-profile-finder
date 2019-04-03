@@ -1,0 +1,16 @@
+.avatar{
+	width: 100%
+}
+.bd{
+	font-size: 15px;
+}
+footer {
+  background-color:#263238;
+  color:#fff;
+}
+footer a {
+  color:#fff;  
+}
+a:hover {
+  color: hotpink;
+}
