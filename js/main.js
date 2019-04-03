@@ -31,14 +31,14 @@ if(username.length==0){
 							 <div class="card-body">
 							<div class="row">
 							<div class="col-md-7">
-								<strong>${repo.name}</strong>: ${repo.description}
+								<strong>${repo.name}</strong><br><br> ${repo.description}
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3"><br>
 							<span class="badge badge-dark bd">Forks: ${repo.forks_count}</span>
 <span class="badge badge-primary bd">Watchers: ${repo.watchers_count}</span>
 <span class="badge badge-success bd">Stars: ${repo.stargazers_count}</span>
 							</div>
-							<div class="col-md-2">
+							<div class="col-md-2"><br>
 							<a href="${repo.html_url}" target="_blank" class="btn btn-info">Repo page</a>
 							</div>
 							</div>
